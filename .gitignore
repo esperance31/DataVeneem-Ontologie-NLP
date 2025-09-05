@@ -1,0 +1,9 @@
+# Ignorer l'environnement virtuel
+dataveneem/
+
+
+# Ignorer les fichiers __pycache__ et les fichiers temporaires
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
