@@ -1,0 +1,31 @@
+@prefix ns1: <http://example.org/> .
+
+ns1:Clients_GrandeEntreprise a ns1:Entite .
+
+ns1:Clients_PME a ns1:Entite .
+
+ns1:Couts a ns1:Entite .
+
+ns1:DataVeneem a ns1:ModeleAffaire ;
+    ns1:aPourClient "PME, Grandes entreprises" ;
+    ns1:aPourPartenaire "Consultants data, Fournisseurs Cloud" ;
+    ns1:aPourRevenu "Abonnement PME : 300000 Fr / mois",
+        "Services ponctuels : 20000 Fr / tâche" ;
+    ns1:aPourService "Collecte de données",
+        "Sauvegarde sécurisée de données",
+        "Traitement de données" ;
+    ns1:utiliseRessource "API Big Data",
+        "Cloud AWS",
+        "Materiel physique",
+        "Serveurs de calcul" .
+
+ns1:Partenaires a ns1:Entite .
+
+ns1:Particulier a ns1:Entite .
+
+ns1:Ressources a ns1:Entite .
+
+ns1:Revenus a ns1:Entite .
+
+ns1:Service a ns1:Entite .
+
