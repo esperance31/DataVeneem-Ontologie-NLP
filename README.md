@@ -40,18 +40,26 @@ cd DataVeneem-Ontologie-NLP
 
 ### 2. **Création et configuration de  l'environnement virtuel** :
 #### Linux / Mac
+```bash
 python3 -m venv dataveneem
 source dataveneem/bin/activate
+```
 
 #### Windows
+```bash
 python -m venv dataveneem
 dataveneem\Scripts\activate
+```
 
 #### Installation des dépendances
+```bash
 pip install -r requirements.txt
+```
 
 #### Lancement de l'application
+```bash
 python inferrenceSpacy.py
+```
 
 
 
