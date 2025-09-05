@@ -25,8 +25,33 @@ DataVeneem-Ontologie-NLP/
 ├─ dataveneem.ttl       # Fichier TTL représentant le graphe RDF
 ├─ query.py             # Script principal pour interroger la base de connaissances avec NLP
 ├─ inferrenceSpacy.py   # Script interactif utilisant spaCy pour poser les questions, mapper les mots-clés, générer SPARQL et afficher la réponse
-└─ requirements.txt     # Dépendances Python (spaCy, rdflib, etc.)
+└─ requirements.txt     # Dépendances Python
+```
 
+---
+
+## 🚀 Installation
+
+1. **Cloner le dépôt** :
+```bash
+git clone <>
+cd DataVeneem-Ontologie-NLP
+```
+
+2. **Création de  l'environnement virtuel** :
+# Linux / Mac
+python3 -m venv dataveneem
+source dataveneem/bin/activate
+
+# Windows
+python -m venv dataveneem
+dataveneem\Scripts\activate
+
+# Installation des dépendances
+pip install -r requirements.txt
+
+# Lancement de l'application
+python inferrenceSpacy.py
 
 
 
