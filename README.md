@@ -17,12 +17,17 @@ Elle contient les informations clés sur les entités de DataVeneem :
 - Partenaires
 - Modèle économique (sources de revenus)
 
+## 🗂 Structure du projet
+
+```text
 DataVeneem-Ontologie-NLP/
 ├─ graph.py             # Définition du graphe RDF de DataVeneem (entités et relations)
 ├─ dataveneem.ttl       # Fichier TTL représentant le graphe RDF
 ├─ query.py             # Script principal pour interroger la base de connaissances avec NLP
-├─ inferrenceSpacy.py   # Utilise spaCy pour poser les questions, mapper les mots-clés, générer SPARQL et afficher la réponse
+├─ inferrenceSpacy.py   # Script interactif utilisant spaCy pour poser les questions, mapper les mots-clés, générer SPARQL et afficher la réponse
 └─ requirements.txt     # Dépendances Python (spaCy, rdflib, etc.)
+
+
 
 
 
