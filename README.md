@@ -32,25 +32,25 @@ DataVeneem-Ontologie-NLP/
 
 ## 🚀 Installation
 
-1. **Cloner le dépôt** :
+### 1. **Cloner le dépôt** :
 ```bash
 git clone <>
 cd DataVeneem-Ontologie-NLP
 ```
 
-2. **Création de  l'environnement virtuel** :
-### Linux / Mac
+### 2. **Création et configuration de  l'environnement virtuel** :
+#### Linux / Mac
 python3 -m venv dataveneem
 source dataveneem/bin/activate
 
-### Windows
+#### Windows
 python -m venv dataveneem
 dataveneem\Scripts\activate
 
-### Installation des dépendances
+#### Installation des dépendances
 pip install -r requirements.txt
 
-### Lancement de l'application
+#### Lancement de l'application
 python inferrenceSpacy.py
 
 
