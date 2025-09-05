@@ -34,7 +34,7 @@ DataVeneem-Ontologie-NLP/
 
 ### 1. **Cloner le dépôt** :
 ```bash
-git clone <>
+git clone https://github.com/esperance31/DataVeneem-Ontologie-NLP.git
 cd DataVeneem-Ontologie-NLP
 ```
 
